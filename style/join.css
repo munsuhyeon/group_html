@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+html, body {
+    font-family: "Noto Sans KR", sans-serif;
+}
 /* header{
     border: solid 2px blue;
 } */
@@ -20,7 +24,7 @@
 .join_area{
     margin: 0 auto;
     padding: 58px 0 160px;
-    width: 400px;
+    width: 600px;
 }
 .input_join{
     padding: 0 0 20px
@@ -119,7 +123,6 @@ a{
 }
 .address_btn{
     align-items: center;
-    cursor: pointer;
     display: inline-flex;
     justify-content: center;
     text-align: center;
@@ -128,16 +131,107 @@ a{
     background-color: #2764e6;
     border-radius: 12px;
     height: 35px;
-    width: 100px;
+    width: 180px;
     font-size: 16px;
     letter-spacing: -.16px;
+    margin-left: 40px;
+    border: none;
 }
 .join_terms{
-    padding: 0 0 40px;
+    padding: 0 0 30px;
 }
-.check_terms1{
+.check_terms{
     display: flex;
-    height: 24px;
+    flex-direction: column;
+    margin-bottom: 20px;
+    /* align-items: center;
+    justify-content: center; */
+    /* height: 24px; */
+}
+.agree {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #ebebeb;
+    overflow-y: scroll; /* y축으로 오버플로우 되는 것을 scroll방식으로 바꾸는 것 */	
+    display: block;
+    padding: 30px;
+}
+.form-check{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.form-check .form-check-input{
+    float: left;
+    margin-left: -1.5em;
+}
+.form-check-input[type=checkbox]{
+    border-radius: .25em;
+}
+.form-check-input{
+    width: 1.25rem;
+    height: 1.25rem;
+}
+.check_txt{
+    margin-left:10px;
+}
+.must_txt{
+    color:red;
+}
+.btn{
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    background-color: #2764e6;
+    border-radius: 12px;
+    height: 35px;
+    width: 180px;
+    font-size: 16px;
+    letter-spacing: -.16px;
+    margin-left: 40px;
+    border: none;
+}
+.join_ok_logo{
+    text-align: center;
+}
+.btn_area{
+    display: flex;
+    justify-content: center;
+}
+.join_ok_area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 240px 0;
 }
 
-
+.register-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.naver_login_img{
+    height: 45px;
+}
+.sns_login{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px 0 50px;
+}
+.find_id_btn{
+    align-items: center;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    border-radius: 12px;
+    height: 52px;
+    width: 100%;
+    font-size: 16px;
+    letter-spacing: -.16px;
+    background-color: #2764e6;
+}
