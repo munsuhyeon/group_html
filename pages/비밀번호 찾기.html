@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>비밀번호 찾기</title>
+    <link href="../style/reset.css" rel="stylesheet">
+    <link href="../style/join.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- index.html 을 적용하기 위한 css -->
+    <link rel="stylesheet" href="../style/header.css" />
+</head>
+<body>
+    <div class="register-wrapper">
+        <header>
+            <!-- header logo  -->
+            <div class="container">
+              <div class="logo">
+                <a href="#"
+                  ><img src="../images/mainLogo.png" alt="bluewave_logo"
+                /></a>
+              </div>
+              <!-- nav_top 메뉴 바 -->
+              <div>
+                <div class="nav_top">
+                  <ul class="nav_top_menu">
+                    <li><a href="로그인.html">로그인</a></li>
+                    <li><a href="회원가입.html">회원가입</a></li>
+                    <li>
+                      <a href="">
+                        <i class="fa-solid fa-user"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                    </li>
+                  </ul>
+                </div>
+      
+                <!-- header -> logo 옆에 검색 창  -->
+                <div class="search-bar">
+                  <input type="text" placeholder="찾고 싶은 상품 검색해보세요!" />
+                  <button type="button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- header -> nav_bar -->
+            <nav class="nav_bar">
+              <div class="container">
+                <ul class="nav_menu">
+                  <li><a href="">홈인테리어</a></li>
+                  <li><a href="">가전디지털</a></li>
+                  <li><a href="">스포츠/레저</a></li>
+                  <li><a href="">서적</a></li>
+                  <li><a href="">문구/완구</a></li>
+                  <li><a href="">반려동물용품</a></li>
+                </ul>
+              </div>
+            </nav>
+          </header>
+    
+    <main>
+          <div class="content">
+            <div class="join_area">
+              <h1 class="logo_area"><img src="../images/lettersLogo.png" alt="Blue Wabe" class="letters_logo"></h1>
+              <h2 class="join_title">비밀번호 찾기</h2>
+              <div class="input_box input_join">
+                <h3 class="input_title">이메일</h3>
+                <div class="input_item">
+                  <input type="email" class="input_txt"/>
+                </div>
+              </div>
+              <div class="input_box input_join">
+                <h3 class="input_title">이름</h3>
+                <div class="input_item">
+                  <input type="text" class="input_txt"/>
+                </div>
+                <p class="input_error err_name">에러문구</p>
+              </div>
+              <div class="input_box input_join ">
+                <h3 class="input_title">아이디</h3>
+                <div class="input_item">
+                  <input type="text" class="input_txt"/>
+                </div>
+                <p class="input_error err_id">에러문구</p>
+              </div>
+            
+              <a class="join_btn checkOk">비밀번호 찾기</a>
+              
+            </div> 
+          </div> 
+      </main>
+    </div>
+</body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+<link rel="stylesheet" href="../style/header.css" />
+<link rel="stylesheet" href="../style/order.css">
+<link rel="stylesheet" href="../style/reset.css">
+    
+    <title>주문목록</title>
+</head>
+<body>
+  <header>
+    <!-- header logo  -->
+    <div class="container">
+      <div class="logo">
+        <a href="#"
+          ><img src="../images/mainLogo.png" alt="bluewave_logo"
+        /></a>
+      </div>
+      <!-- nav_top 메뉴 바 -->
+      <div>
+        <div class="nav_top">
+          <ul class="nav_top_menu">
+            <li><a href="로그인.html">로그인</a></li>
+            <li><a href="회원가입.html">회원가입</a></li>
+            <li>
+              <a href="">
+                <i class="fa-solid fa-user"></i>
+              </a>
+            </li>
+            <li>
+              <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- header -> logo 옆에 검색 창  -->
+        <div class="search-bar">
+          <input type="text" placeholder="찾고 싶은 상품 검색해보세요!" />
+          <button type="button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- header -> nav_bar -->
+    <nav class="nav_bar">
+      <div class="container">
+        <ul class="nav_menu">
+          <li><a href="">홈인테리어</a></li>
+          <li><a href="">가전디지털</a></li>
+          <li><a href="">스포츠/레저</a></li>
+          <li><a href="">서적</a></li>
+          <li><a href="">문구/완구</a></li>
+          <li><a href="">반려동물용품</a></li>
+        </ul>
+      </div>
+    </nav>
+</header>
+<div class="wrapper">
+  <aside>
+    <nav>
+      <div>
+        <img src="../images/lettersLogo.png" alt="BLUE WAVE" class="mypage_logo">
+        <p class="mypage_title">마이페이지</p>
+      </div>
+      <hr>
+      <ul>
+        <li>
+          <button>회원정보</button>
+        </li>
+        <li>
+          <button>구매내역</button>
+        </li>
+        <li>
+          <button>장바구니</button>
+        </li>
+        <li>
+          <button>리뷰내역</button>
+        </li>
+      </ul>
+    </nav>
+  </aside>
+  <main>
+    <div class="content">
+      <div class="order_search">
+        <h1>주문조회</h1>
+      </div>
+      <div class="period_month">
+        <ul class="month_list">
+          <li class="month_item">
+            <a href="#">한달전</a>
+          </li>
+          <li class="month_item">
+            <a href="#">3개월전</a>
+          </li>
+          <li class="month_item">
+            <a href="#">6개월전</a>
+          </li>
+        </ul>
+      </div>
+      <div class="order">
+        <div class="order_list">
+          <h3>주문내역</h3>
+        </div>
+        <div class="order_table">
+          <table>
+            <thead>
+              <tr>
+                  <th>주문번호</th>
+                  <th>IMAGE</th>
+                  <th>상품명</th>
+                  <th>수량</th>
+                  <th>가격</th>
+                  <th>주문일시</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                  <td>1</td>
+                  <td></td>
+                  <td>신발</td>
+                  <td>1</td>
+                  <td>50,000원</td>
+                  <td>2024-05-30
+                  <button class="btn" type="submit">리뷰작성</button></td>
+                  
+              </tr>
+              <tr>
+                  <td>2</td>
+                  <td></td>
+                  <td>옷</td>
+                  <td>1</td>
+                  <td>70,000원</td>
+                  <td>2024-05-30
+                    <span><button class="btn">리뷰작성</button></span>
+                  </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="next">
+          <button class="btn">이전</button>
+          <button class="btn">다음</button>
+        </div>
+        <div>
+          <i class="sc-178zqvr-9 fnQWVX"></i>
+        </div>
+      </div>
+    </div> 
+  </main>
+</div>
+
+</body>
+</html>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>마이페이지</title>
+    <title>배송지 관리</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -90,31 +90,58 @@
           </nav>
         </aside>
         <main>
-            <div class="edit_wrraper">
-                <div class="edit_area">
-                    <h2 class="edit_profile">개인 정보 수정</h2>
+            <div class="addr_wrapper">
+                <div class="addr_area">
+                    <h2 class="addr_title">배송지 관리</h2>
+                    <span class="sub_addr_title">배송지에 따라 상품정보 및 상품유형이 달라질 수 있습니다</span>
+                </div>
+                <div class="addr_area" onclick="sample6_execDaumPostcode()">
+                    <button class="add_address"><img src="../images/plus-large-svgrepo-com.svg" alt="+"> 배송지 추가</button>
                 </div>
             </div>
             
             <div class="form_wrapper">
-                <div class="form_area">
-                    <h4 class="sub_title">비밀번호 재확인</h4>
-                    <p class="guide_txt">회원님의 정보를 안전하게 보호하기 위해 비밀번호를 다시 한번 확인해주세요</p>
-                    <form>
-                        <div class="edit_pw_area">
-                            <div class="input_box input_join">
-                              <h3 class="input_title">비밀번호</h3>
-                              <div class="input_item">
-                                <input type="password" placeholder="현재 비밀번호를 입력해주세요" class="input_txt" maxlength="16"/>
-                              </div>
-                              <p class="input_error err_pw">에러문구</p>
-                            </div>
-                  
-                            <a class="join_btn checkOk">확인</a>
-                            
-                          </div>
-                    </form>
-                </div>
+                <ul>
+                    <div class="radio_area">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                            </label>
+                        </div>
+                        <div class="show_address">
+                            <div class="default_addr">기본 배송지</div>
+                            <p class="address_txt">인천 미추홀구 인주대로 534 엔터스빌딩 12층 이젠아카데미</p>
+                        </div>
+                        
+                    </div>
+                    <div class="radio_area">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                            </label>
+                        </div>
+                        <div class="show_address">
+                            <p class="address_txt">인천 미추홀구 인주대로 534 엔터스빌딩 12층 이젠아카데미</p>
+                        </div>
+                        <div class="minus_div">
+                            <a><img src="../images/minus-svgrepo-com.svg" alt="수정" class="minus_img"></a>
+                        </div>
+                    </div>
+                    <div class="radio_area">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                            </label>
+                        </div>
+                        <div class="show_address">
+                            <p class="address_txt">인천 미추홀구 인주대로 534 엔터스빌딩 12층 이젠아카데미</p>
+                        </div>
+                        <div class="minus_div">
+                            <a><img src="../images/minus-svgrepo-com.svg" alt="수정" class="minus_img"></a>
+                        </div>
+                    </div>
+                    
+                </ul>
             </div>
         </main>
       </div>

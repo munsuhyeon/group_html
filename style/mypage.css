@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+html, body {
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+main{
+    flex-basis: 900px;
+    background-color: rgb(255, 255, 255);
+}
+aside{
+    flex-basis: 280px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 0 0 1px #e3e5e8, 0 1px 2px 0 rgba(0,0,0,0.4);
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto 80px;
+    width: 1280px;
+}
+.title_area{
+    margin: 1.5rem 0;
+    display: flex;
+    justify-content: center;
+}
+.mypage_logo{
+    height: 50px;
+    min-width: 50px;
+}
+.mypage_title{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.division-line{
+    margin: 1rem 0;
+    border: 0;
+    border-top: 1px solid #444444;
+    opacity: .25;
+}
+.menu{
+    text-align: center;
+    font-size: 20px;
+}
+.nav_item{
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding: 1rem 1rem;
+}
+.nav_item.active{
+    background-color: #2764e6;
+    border-radius: 3px;
+    color: #fff;
+}
+.edit_wrraper{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    padding: 25px 0px 20px;
+}
+.edit_area{
+    display: flex;
+    align-items: flex-end;
+}
+.edit_profile{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    line-height: 28px;
+}
+.form_wrapper{
+    padding: 0 20px;
+}
+.form_area{
+    width: 100%;
+    margin: 0px auto 20px;
+}
+.sub_title{
+    padding-bottom: 8px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.guide_txt{
+    padding-bottom: 20px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: rgb(102, 102, 102);
+}
+.edit_pw_area{
+    padding: 7px;
+}
+.btn_area{
+    display: flex;
+    justify-content: center;
+}
+.profile_btn{
+    width: 120px;
+    height: 44px;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 3px;
+}
+.profile_btn.cancel{
+    background-color: #fff;
+    border: #2764e6 1px solid;
+    color: #2764e6;
+}
+.profile_btn.submit{
+    background-color: #2764e6;
+    color: #fff;
+}
+.addr_wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    padding: 25px 0px 20px;
+    border-bottom: 2px solid rgba(51,51,51);
+}
+.addr_area{
+    display: flex;
+    align-items: flex-end;
+}
+.addr_title{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    line-height: 28px;
+}
+.sub_addr_title{
+    padding-left: 8px;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: -0.2px;
+    color:rgb(153,153,153);
+}
+.add_address{
+    display: flex;
+    align-items: center;
+    height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+}
+.add_address img{
+    height: 15px;
+    margin-right: 6px;
+}
+.radio_area{
+    border-bottom: 1px solid rgb(244,244,244);
+    padding: 20px 0px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+.default_addr{
+    display: inline-block;
+    padding: 4px 8px;
+    margin-bottom: 10px;
+    border-radius: 11px;
+    background-color: rgb(247, 247, 247);
+    color: rgb(102, 102, 102);
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+}
+.address_txt{
+    font-size: 16px;
+    line-height: 20px;
+    color:rgb(51,51,51);
+    word-break: break-all;
+}
+.show_address{
+    margin-left: 15px;
+    flex:1 1 0%;
+}
+.minus_div{
+    display: inline-flex;
+    padding-left: 16px;
+    cursor: pointer;
+}
+.minus_img{
+    width: 30px;
+    color: #444444;
+}

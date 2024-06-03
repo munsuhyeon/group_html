@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+html, body {
+    font-family: "Noto Sans KR", sans-serif;
+}
+table {
+    /*max-width: 1000px;*/
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+th {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #51c1f7;
+}
+th {
+    background-color: #6ca6f3;
+}
+
+td {
+    border-bottom: 1px solid #51c1f7;
+    padding: 8px;
+}
+
+    .btn {
+        padding: 6px 10px;
+        background-color: #2764e6;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        
+    }
+
+.order {
+    margin:20px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.order_search {
+    text-align: center;
+    margin: 30px;
+}
+
+.order_list {
+    /*margin-left: 270px;*/
+    text-align: left;
+}
+
+.next {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: -80px;
+    
+}
+
+.month_list {
+    list-style: none;
+    background-color: #fff;
+    border: 1px solid #6ca6f3;
+    display: flex;
+    font-size: 13px;
+    justify-content: center;
+}
+
+.month_item {
+    /* display: flex; */
+    border-radius: 5px;
+    letter-spacing: -.2px;
+    width: 100px;
+    
+}
+
+.month_item a{
+    text-decoration: none;
+    color: black;
+}
+
+.period_month {
+    background-color: #fafafa;
+}
+/*=================================*/
+.content{
+    margin: 0 auto;
+    max-width: 1280px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 44px;
+    width: 1280px;
+}
+main{
+    flex-basis: 1000px;
+}
+aside{
+    flex-basis: 280px;
+    height: 100%;
+    border: 1px solid #2764e6;
+    box-sizing: border-box;
+}
+.mypage_logo{
+    width: 50%;
+}
+.mypage_title{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
